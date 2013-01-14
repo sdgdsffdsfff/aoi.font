@@ -36,7 +36,7 @@ glyphs:
 
   -
     css: activity
-    code: 0xe800
+    code: 0xf800
     uid: d97f2667f3da0845da7baaeda485e2da 
     meta:
       author: isux
@@ -44,7 +44,7 @@ glyphs:
     search: [activity]
   -
     css: app-add
-    code: 0xe861
+    code: 0xf861
     uid: 3aa86a7bb0229b2a681f39ae7a2441a6 
     meta:
       author: isux
@@ -52,7 +52,7 @@ glyphs:
     search: [app]
   -
     css: app-center
-    code: 0xe862
+    code: 0xf862
     uid: f220a344361b32db28c66048168faf9c 
     meta:
       author: isux
@@ -60,7 +60,7 @@ glyphs:
     search: [app, center]
   -
     css: arrow-top
-    code: 0xe863
+    code: 0xf863
     uid: ec94ff56b8332bd3edc3a4e90e7749e7 
     meta:
       author: isux
@@ -68,7 +68,7 @@ glyphs:
     search: [arrow, top]
   -
     css: board
-    code: 0xe864
+    code: 0xf864
     uid: ed99f7b52ba602f0ca3c4f0c2e0c5093 
     meta:
       author: isux
@@ -76,7 +76,7 @@ glyphs:
     search: [board]
   -
     css: cert
-    code: 0xe865
+    code: 0xf865
     uid: f6474f6853e2276e536c8993268d5fca 
     meta:
       author: isux
@@ -84,7 +84,7 @@ glyphs:
     search: [cert]
   -
     css: cloudy
-    code: 0xe866
+    code: 0xf866
     uid: 7ce2e72d9618a8fbf8a48929b7a21129 
     meta:
       author: isux
@@ -92,7 +92,7 @@ glyphs:
     search: [cloudy, weather]
   -
     css: dress
-    code: 0xe867
+    code: 0xf867
     uid: b7456e47f7f5b65b43002ca73aa24978 
     meta:
       author: isux
@@ -100,7 +100,7 @@ glyphs:
     search: [dress]
   -
     css: gift
-    code: 0xe868
+    code: 0xf868
     uid: d3f8eb91dea871ad107fc0360b9ff171 
     meta:
       author: isux
@@ -108,7 +108,7 @@ glyphs:
     search: [gift]
   -
     css: homepage
-    code: 0xe869
+    code: 0xf869
     uid: b7e2aee962ff7c39b5c86eca087af247 
     meta:
       author: isux
@@ -116,7 +116,7 @@ glyphs:
     search: [homepage]
   -
     css: zan
-    code: 0xe871
+    code: 0xf871
     uid: 0e74d2ca29545fa136f86b624f14ea0e 
     meta:
       author: isux
@@ -124,7 +124,7 @@ glyphs:
     search: [zan, like]
   -
     css: zan2
-    code: 0xe870
+    code: 0xf870
     uid: 9d42e2e7585e0095e9e187e0bec2e2b2 
     meta:
       author: isux
@@ -132,7 +132,7 @@ glyphs:
     search: [like, zan]
   -
     css: list-more
-    code: 0xe872
+    code: 0xf872
     uid: e0b38208d9d176a230ed13b9cd67ba03 
     meta:
       author: isux
@@ -140,7 +140,7 @@ glyphs:
     search: [list, more]
   -
     css: love
-    code: 0xe873
+    code: 0xf873
     uid: ca067dd82971bf903278a81a3d227f1d 
     meta:
       author: isux
@@ -148,7 +148,7 @@ glyphs:
     search: [love]
   -
     css: mail
-    code: 0xe874
+    code: 0xf874
     uid: 12b380d0d2ab84c3247554a38e16cf9e 
     meta:
       author: isux
@@ -156,7 +156,7 @@ glyphs:
     search: [mail]
   -
     css: myhome
-    code: 0xe875
+    code: 0xf875
     uid: a136da43c30d3c8e34b5b328dec920e1 
     meta:
       author: isux
@@ -164,7 +164,7 @@ glyphs:
     search: [myhome, home]
   -
     css: pengyou
-    code: 0xe876
+    code: 0xf876
     uid: cb6c4d8bde4e9338951335c202118b68 
     meta:
       author: isux
@@ -172,7 +172,7 @@ glyphs:
     search: [pengyou,logo,tencent]
   -
     css: search
-    code: 0xe877
+    code: 0xf877
     uid: 55c6cc587abf8016c88193a1b20cdb27 
     meta:
       author: isux
@@ -180,7 +180,7 @@ glyphs:
     search: [search]
   -
     css: weibo
-    code: 0xe878
+    code: 0xf878
     uid: 020ae88a09a73581333c657b79d0e4c6 
     meta:
       author: isux
