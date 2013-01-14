@@ -20,10 +20,10 @@ font:
 
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
-  fontname: aoi
+  fontname: aoisola
 
-  fullname: aoi
-  familyname: aoi
+  fullname: aoisola
+  familyname: aoisola
 
   copyright: Copyright (C) 2013 by isux qzone team
 
