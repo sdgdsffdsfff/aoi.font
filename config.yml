@@ -1,85 +1,10 @@
 ---
-# This is configuration file for font builder and other support scripts.
-# Format is descriped below.
-#
-#
-# # metadata, to generate demo & fontello info dialogs
-# meta:
-#
-#  author: Daniel Buce
-#  homepage: http://...
-#  email: ...
-#  twitter: http://twitter.com/...
-#  dribbble: http://dribbble.com/...
-#  license: SIL
-#  license_url: http://scripts.sil.org/OFL
-#
-#   css-prefix: "icon-"             # prefix for css-generated classes
-#   demo-columns: 4                 # used for html demo page generation
-#
-# # Font headers. All vars from here will be used as font
-# # params in fontforge http://fontforge.sourceforge.net/python.html
-# font:
-#
-#   version: "1.0"
-#
-#   # use !!!small!!! letters a-z, or Opera will fail under OS X
-#   # fontname will be also used as file name.
-#   fontname: myfont
-#
-#   fullname: MyFont
-#   familyname: Myfont
-#
-#   copyright: Copyright (C) 2012 by xxxxxxxx
-#
-#   ascent: 1638
-#   descent: 410
-#   weight: Regular
-#
-#
-# #
-# # Optional. You can apply global rescale + offset to all font glyphs.
-# # Param values ar 0..1, where 1 = 100%. 
-# #
-# transform:
-#   baseline: 0.2                 # baseline for rescale symmetry. Default value
-#                                 # calculated from ascent/decsent
-#   rescale: 0.68                 # rescale glyphs and center around baseline
-#   offset: -0.1                  # shift up/down
-#
-# glyphs:
-#   - file: glyph1_file           # file name, without extention
-#     from: 0xNNN                 # Source code for remapper or merge tool
-#     code: 0xNNN                 # Symbol code 0x - hex
-#     css: icon-gpyph1-name       # For generated CSS
-#     search: [word1, word2]      # Search aliases (array). CSS name will be
-#                                 # included automatically
-#     src: first_font_alias       # alias to font for merge tool
-#                                 # list of aliases in src_fonts section
-#
-#     #
-#     # local transformations, only for this glyph (optional)
-#     #
-#     transform:                  # personal glyph transformation.
-#       rescale_rel               # *_rel - applyed after global.
-#       offset: 0.2               # without *_rel - override global
-#
-# #
-# # Fonts aliases used only in font merge tool
-# #
-# src_fonts:
-#   first_font_alias: "/absolute/path/to/first/font.ttf"
-#
-################################################################################
-#
-
-
-meta:
+meta:  
   author: isux
   homepage: http://isux.tencent.com
   email: isux@qq.com
   twitter: http://t.qq.com/isux
-  github: https://github.com/isux/qzone.font
+  github: https://github.com/isux/aoi.font
   license: SIL
   license_url: http://scripts.sil.org/OFL
 
@@ -111,152 +36,152 @@ glyphs:
 
   -
     css: activity
-    code: 0xe960
-    uid: 2b90f0f69a4aa887e8574de70fe00777
+    code: 0xe800
+    uid: d97f2667f3da0845da7baaeda485e2da 
     meta:
       author: isux
       email: isux@qq.com
     search: [activity]
   -
     css: app-add
-    code: 0xe961
-    uid: edb135fdb8f3a3b491ac168d34be6dd4
+    code: 0xe861
+    uid: 3aa86a7bb0229b2a681f39ae7a2441a6 
     meta:
       author: isux
       email: isux@qq.com
     search: [app]
   -
     css: app-center
-    code: 0xe962
-    uid: 97d607e1f23c1622d8bc8a7aceb085ac
+    code: 0xe862
+    uid: f220a344361b32db28c66048168faf9c 
     meta:
       author: isux
       email: isux@qq.com
     search: [app, center]
   -
     css: arrow-top
-    code: 0xe963
-    uid: fa59b0493ee073e64d5fa24299726b65
+    code: 0xe863
+    uid: ec94ff56b8332bd3edc3a4e90e7749e7 
     meta:
       author: isux
       email: isux@qq.com
     search: [arrow, top]
   -
     css: board
-    code: 0xe964
-    uid: 118f1e0a8892e5ef91736036a40a348a
+    code: 0xe864
+    uid: ed99f7b52ba602f0ca3c4f0c2e0c5093 
     meta:
       author: isux
       email: isux@qq.com
     search: [board]
   -
     css: cert
-    code: 0xe965
-    uid: a2e0fe54b022a5d93ca3be05297c1326
+    code: 0xe865
+    uid: f6474f6853e2276e536c8993268d5fca 
     meta:
       author: isux
       email: isux@qq.com
     search: [cert]
   -
     css: cloudy
-    code: 0xe966
-    uid: f04ba2a1aad85a43c6cd4e131ed76889
+    code: 0xe866
+    uid: 7ce2e72d9618a8fbf8a48929b7a21129 
     meta:
       author: isux
       email: isux@qq.com
     search: [cloudy, weather]
   -
     css: dress
-    code: 0xe967
-    uid: 5a57d893a3b700b9c7b2cc6a9096cb14
+    code: 0xe867
+    uid: b7456e47f7f5b65b43002ca73aa24978 
     meta:
       author: isux
       email: isux@qq.com
     search: [dress]
   -
     css: gift
-    code: 0xe968
-    uid: 2d07aa0c29df8fa19aebd34df1bb8432
+    code: 0xe868
+    uid: d3f8eb91dea871ad107fc0360b9ff171 
     meta:
       author: isux
       email: isux@qq.com
     search: [gift]
   -
     css: homepage
-    code: 0xe969
-    uid: 8a9316a90cb16c90a3ab00289cabcc1b
+    code: 0xe869
+    uid: b7e2aee962ff7c39b5c86eca087af247 
     meta:
       author: isux
       email: isux@qq.com
     search: [homepage]
   -
     css: zan
-    code: 0xe971
-    uid: ac2f8262c870c7ffbdbdffc630ce694c
+    code: 0xe871
+    uid: 0e74d2ca29545fa136f86b624f14ea0e 
     meta:
       author: isux
       email: isux@qq.com
     search: [zan, like]
   -
     css: zan2
-    code: 0xe970
-    uid: 528cc72aebf87c53339a2b616fa2e6e0
+    code: 0xe870
+    uid: 9d42e2e7585e0095e9e187e0bec2e2b2 
     meta:
       author: isux
       email: isux@qq.com
     search: [like, zan]
   -
     css: list-more
-    code: 0xe972
-    uid: f39ca9f154666e6610490f4406bb66bc
+    code: 0xe872
+    uid: e0b38208d9d176a230ed13b9cd67ba03 
     meta:
       author: isux
       email: isux@qq.com
     search: [list, more]
   -
     css: love
-    code: 0xe973
-    uid: 251443dc006f644b30b7d04bbbd7d172
+    code: 0xe873
+    uid: ca067dd82971bf903278a81a3d227f1d 
     meta:
       author: isux
       email: isux@qq.com
     search: [love]
   -
     css: mail
-    code: 0xe974
-    uid: b96fd111281d51001696322ec82977db
+    code: 0xe874
+    uid: 12b380d0d2ab84c3247554a38e16cf9e 
     meta:
       author: isux
       email: isux@qq.com
     search: [mail]
   -
     css: myhome
-    code: 0xe975
-    uid: 05feed44c52b9e9798b7429253c8a6ab
+    code: 0xe875
+    uid: a136da43c30d3c8e34b5b328dec920e1 
     meta:
       author: isux
       email: isux@qq.com
     search: [myhome, home]
   -
     css: pengyou
-    code: 0xe976
-    uid: a1328dd9a6ebb8786cbf9b85b8c0edb7
+    code: 0xe876
+    uid: cb6c4d8bde4e9338951335c202118b68 
     meta:
       author: isux
       email: isux@qq.com
     search: [pengyou,logo,tencent]
   -
     css: search
-    code: 0xe977
-    uid: 1ba3510ccbff4e2d5fbc4feba2d62026
+    code: 0xe877
+    uid: 55c6cc587abf8016c88193a1b20cdb27 
     meta:
       author: isux
       email: isux@qq.com
     search: [search]
   -
     css: weibo
-    code: 0xe978
-    uid: a66a67e9d96e23a22174c7c0e141a042
+    code: 0xe878
+    uid: 020ae88a09a73581333c657b79d0e4c6 
     meta:
       author: isux
       email: isux@qq.com
