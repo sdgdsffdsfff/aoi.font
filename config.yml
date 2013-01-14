@@ -35,9 +35,17 @@ font:
 glyphs:
 
   -
+    css: at
+    code: 0xf798
+    uid: d97f2667f3da0845da7baaeda485e2da 
+    meta:
+      author: isux
+      email: isux@qq.com
+    search: [at]
+  -
     css: activity
     code: 0xf800
-    uid: d97f2667f3da0845da7baaeda485e2da 
+    uid: d522bf9b0fbe1e8c501db1ff871b359f 
     meta:
       author: isux
       email: isux@qq.com
@@ -54,6 +62,13 @@ glyphs:
     css: app-center
     code: 0xf862
     uid: f220a344361b32db28c66048168faf9c 
+    meta:
+      author: isux
+      email: isux@qq.com
+    search: [app, center]
+  -css: app-center2
+    code: 0xf826
+    uid: ce8a6dc1b032ced1d414c1b61098dfe3 
     meta:
       author: isux
       email: isux@qq.com
