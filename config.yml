@@ -11,9 +11,9 @@ meta:
   css_prefix: "icon-"
   columns: 4
 
-transform:
-  baseline: 0.4
-  rescale: 2.4
+#transform:
+#  baseline: 0.4
+#  rescale: 2.4
 
 font:
   version: "1.0"
@@ -42,6 +42,14 @@ glyphs:
       author: isux
       email: isux@qq.com
     search: [at]
+  -
+    css: qq
+    code: 0xf799
+    uid: 33a46defb9757ff9bb14b0f40a432cc4 
+    meta:
+      author: isux
+      email: isux@qq.com
+    search: [qq]
   -
     css: activity
     code: 0xf800
