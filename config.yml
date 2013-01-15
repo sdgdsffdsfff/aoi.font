@@ -11,9 +11,9 @@ meta:
   css_prefix: "icon-"
   columns: 4
 
-#transform:
-#  baseline: 0.4
-#  rescale: 2.4
+transform:
+  baseline: 0.4
+  rescale: 2.4
 
 font:
   version: "1.0"
