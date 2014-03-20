@@ -1,7 +1,7 @@
 Development docs
 ================
 
-Set if scripts to easily build webfonts from SVG images
+Set of scripts to easily build webfonts from SVG images
 
 Installation
 ------------
@@ -11,22 +11,13 @@ Installation
 **(!)** Use Ubuntu **12.04**. Or you will have to manually install fresh
 freetype library, to build ttfautohint.
 
-Init font-builder and build additional software (ttf2eot, ttfautohint):
+Install dependencies (fontforge & python modules):
+
+    sudo make dev-deps
+
+Build additional software (ttf2eot, ttfautohint):
 
     make support
-
-Install system dependencies (fontforge & python modules):
-
-    cd support/font-builder && sudo make dev-deps
-
-
-If you are working on multiple font you would like to have only one instance of
-heavy dependencies like _ttfautohint_ installed. Run this:
-
-    cd support/font-builder && sudo make support-install
-
-
-Note that you don't need to install system dependencies more than once.
 
 
 ### Mac
@@ -62,12 +53,3 @@ the bottom.
 In most cases it's ok to visually allign icons to middle line, not to baseline.
 If you are not shure, how to start - make image with 10% top/bottom padding.
 Then generate demo page and tune scale/offset.
-
-### config.yml
-
-Generate UID:
-> node -e "for(var i=10; i>0; i--) console.log(require('crypto').randomBytes(16).toString('hex'));"
-
-### gh-pages
-
-> make gh-pages
